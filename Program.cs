@@ -65,13 +65,13 @@ namespace Calculator
 					Console.WriteLine("{0} + {1} = {2}",firstNum, secondNum, (firstNum + secondNum));
 					break;
 				case "-":
-					Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, (firstNum - secondNum));
+					Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, (firstNum - secondNum));
 					break;
 				case "/":
-					Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, (firstNum / secondNum));
+					Console.WriteLine("{0} / {1} = {2}", firstNum, secondNum, (firstNum / secondNum));
 					break;
 				case "*":
-					Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, (firstNum * secondNum));
+					Console.WriteLine("{0} * {1} = {2}", firstNum, secondNum, (firstNum * secondNum));
 					break;
 				default:
 					// default meaning the user did not entered the available options above therefore default case will run meaning wrong input.
